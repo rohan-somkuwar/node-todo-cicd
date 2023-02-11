@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: '9145503154/node-todo-test:latest'
+    ports:
+      - "8001:8001"
